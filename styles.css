@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Sholom';
+    src: url('Sholom.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background: linear-gradient(to top right, #ffbc69ff, #FFEEBF);
+}
+
+h1 {
+    font-family: 'Sholom', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #333;
+    text-align: center;
+}
