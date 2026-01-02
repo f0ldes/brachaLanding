@@ -34,3 +34,117 @@ h1 {
     color: #333;
     text-align: center;
 }
+
+/* Policy page styles */
+html:has(.policy-container),
+html:has(.policy-container) body {
+    background: #FFEEBF !important;
+}
+
+.policy-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+}
+
+.policy-content {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.policy-title {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.last-updated {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.policy-section {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.policy-section h2 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+}
+
+.policy-section h3 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    margin-top: 1.5rem;
+    color: #333;
+}
+
+.policy-section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.policy-section ul {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.policy-section li {
+    margin-bottom: 0.5rem;
+}
+
+.policy-section a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.policy-section a:hover {
+    color: #004499;
+}
+
+.policy-divider {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    color: #999;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .policy-container {
+        padding: 1rem 0.5rem;
+    }
+    
+    .policy-title {
+        font-size: 2rem;
+    }
+    
+    .policy-section h2 {
+        font-size: 1.25rem;
+    }
+    
+    .policy-section h3 {
+        font-size: 1.1rem;
+    }
+    
+    .policy-section ul {
+        margin-left: 1.5rem;
+    }
+}
